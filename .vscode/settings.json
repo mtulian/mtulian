@@ -1,0 +1,64 @@
+"bracketPairColorizer.forceUniqueOpeningColor": false,
+"bracketPairColorizer.colorMode": "Consecutive",
+"bracketPairColorizer.activeScopeCSS": [
+  "backgroundColor: {color}",
+  "borderColor : {color}",
+  "borderStyle : solid",
+  "borderWidth : 1px"
+],
+"bracketPairColorizer.showBracketsInGutter": false,
+"bracketPairColorizer.showVerticalScopeLine": false,
+"breadcrumbs.enabled": true,
+"editor.cursorBlinking": "solid",
+"editor.cursorStyle": "line",
+"editor.cursorWidth": 5,
+"editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+"editor.fontSize": 14,
+"editor.fontWeight": "400",
+"editor.letterSpacing": 0.5,
+"editor.lineHeight": 18,
+"editor.minimap.enabled": false,
+"editor.renderWhitespace": "all",
+"editor.tabSize": 2,
+"editor.wordWrapColumn": 120,
+"eslint.enable": true,
+"eslint.options": {
+  "extensions": [".html", ".js", ".vue", ".jsx"]
+},
+"eslint.validate": [
+  {
+    "language": "html",
+    "autoFix": true
+  },
+  {
+    "language": "vue",
+    "autoFix": false
+  },
+  {
+    "language": "javascript",
+    "autoFix": true
+  },
+  {
+    "language": "javascriptreact",
+    "autoFix": true
+  }
+],
+"eslint.autoFixOnSave": true,
+"eslint.run": "onType",
+"files.autoSave": "off",
+"files.trimTrailingWhitespace": true,
+"prettier.eslintIntegration": true,
+"window.zoomLevel": 1,
+"workbench.colorTheme": "Cobalt2",
+"workbench.editor.enablePreview": false,
+"workbench.editor.enablePreviewFromQuickOpen": false,
+"workbench.iconTheme": "vscode-icons",
+"workbench.sideBar.location": "left",
+"files.watcherExclude": {
+  "**/.git/subtree-cache": true
+  // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
+  // you'll need to change this to an absolute path on your computer
+  /*  "vscode_custom_css.imports": [
+      "/Volumes/Macintosh HD/Users/wesbos/.vscodestyles.css"
+    ],*/
+}
